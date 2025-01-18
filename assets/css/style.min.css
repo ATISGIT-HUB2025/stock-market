@@ -581,7 +581,7 @@ select {
 }
 
 .p1-bg {
-  background: rgba(var(--p1), 1);
+  background: #01031a;
 }
 
 .s1-bg {
@@ -614,19 +614,19 @@ select {
 }
 
 .nb4-bg {
-  background: rgba(var(--nb4), 1);
+  background: #01031a;
 }
 
 .a2-bg {
-  background: rgba(var(--a2), 1);
+  background: #01031a;
 }
 
 .nw1-color {
-  color: rgba(var(--nw1), 1);
+  background: #01031a;
 }
 
 .nb4-color {
-  color: rgba(var(--nb4), 1);
+  background: #01031a;
 }
 
 .fw_500 {
@@ -2706,7 +2706,7 @@ iframe {
 
 .footer:before {
   content: "";
-  background: rgba(var(--nb4), 1);
+  background: #01031a;
   position: absolute;
   right: 0;
   width: 100%;
@@ -2807,8 +2807,9 @@ iframe {
 }
 
 .hero-section {
-  background: url("../images/hero_bg_vector.png");
-  background-color: rgba(var(--nb4));
+  /* background: url("../images/hero_bg_vector.png");
+  background-color: rgba(var(--nb4)); */
+  background: #01031a;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
