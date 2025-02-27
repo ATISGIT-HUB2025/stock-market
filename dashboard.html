@@ -208,6 +208,18 @@
             >
               <button
                 class="nav-link active mb-3"
+                id="v-pills-Dashboard-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-Dashboard"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-Dashboard"
+                aria-selected="true"
+              >
+                Dashboard
+              </button>
+              <button
+                class="nav-link mb-3"
                 id="v-pills-Profile-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#v-pills-Profile"
@@ -263,9 +275,241 @@
           </div>
           <div class="col-lg-8">
             <div class="tab-content" id="v-pills-tabContent">
-              <!-- Profile Tab -->
+              <!-- Dashboard Tab -->
               <div
                 class="tab-pane fade show active"
+                id="v-pills-Dashboard"
+                role="tabpanel"
+                aria-labelledby="v-pills-Dashboard-tab"
+              >
+                <div class="comments-form cus-rounded-1 nb3-bg p-4">
+                  <h6 class="message__title mb-8 mb-lg-10 text-warning">
+                    Dahboard
+                  </h6>
+                  <div class="row gy-4">
+                    <div class="col-lg-4">
+                      <div
+                        class="card p-4"
+                        style="background: rgb(102, 102, 191)"
+                      >
+                        <div class="row">
+                          <div class="col-4">
+                            <div
+                              style="
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50px;
+                                background: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                              "
+                            >
+                              <i class="fa fa-money-bill text-dark"></i>
+                            </div>
+                          </div>
+                          <div class="col-8">
+                            <div>
+                              <h6 style="font-size: 12px">Deposited Amount</h6>
+                              <h5>Rs.2000</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div
+                        class="card p-4"
+                        style="background: rgb(102, 173, 191)"
+                      >
+                        <div class="row">
+                          <div class="col-4">
+                            <div
+                              style="
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50px;
+                                background: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                              "
+                            >
+                              <i class="fa fa-chart-bar text-dark"></i>
+                            </div>
+                          </div>
+                          <div class="col-8">
+                            <div>
+                              <h6 style="font-size: 12px">PNL</h6>
+                              <h5>Rs.2000</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div
+                        class="card p-4"
+                        style="background: rgb(151, 191, 102)"
+                      >
+                        <div class="row">
+                          <div class="col-4">
+                            <div
+                              style="
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50px;
+                                background: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                              "
+                            >
+                              <i class="fa fa-chart-bar text-dark"></i>
+                            </div>
+                          </div>
+                          <div class="col-8">
+                            <div>
+                              <h6 style="font-size: 12px">Growth</h6>
+                              <h5>2.215%</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div
+                        class="card p-4"
+                        style="background: rgb(151, 191, 102)"
+                      >
+                        <div class="row">
+                          <div class="col-4">
+                            <div
+                              style="
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50px;
+                                background: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                              "
+                            >
+                              <i class="fa fa-chart-bar text-dark"></i>
+                            </div>
+                          </div>
+                          <div class="col-8">
+                            <div>
+                              <h6 style="font-size: 12px">Withdrawal</h6>
+                              <h5>Rs.3000</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div
+                        class="card p-4"
+                        style="background: rgb(102, 108, 191)"
+                      >
+                        <div class="row">
+                          <div class="col-4">
+                            <div
+                              style="
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50px;
+                                background: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                              "
+                            >
+                              <i class="fa fa-chart-bar text-dark"></i>
+                            </div>
+                          </div>
+                          <div class="col-8">
+                            <div>
+                              <h6 style="font-size: 12px">Profit</h6>
+                              <h5>Rs.3000</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div
+                        class="card p-4"
+                        style="background: rgb(102, 191, 146)"
+                      >
+                        <div class="row">
+                          <div class="col-4">
+                            <div
+                              style="
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50px;
+                                background: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                              "
+                            >
+                              <i class="fa fa-chart-bar text-dark"></i>
+                            </div>
+                          </div>
+                          <div class="col-8">
+                            <div>
+                              <h6 style="font-size: 12px">Trade Balance</h6>
+                              <h5>Rs.3000</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div
+                        class="card p-4"
+                        style="background: rgb(191, 103, 102)"
+                      >
+                        <div class="row">
+                          <div class="col-4">
+                            <div
+                              style="
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50px;
+                                background: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                              "
+                            >
+                              <i class="fa fa-chart-bar text-dark"></i>
+                            </div>
+                          </div>
+                          <div class="col-8">
+                            <div>
+                              <h6 style="font-size: 12px">Holding Balance</h6>
+                              <h5>Rs.3000</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Profile Tab -->
+              <div
+                class="tab-pane fade"
                 id="v-pills-Profile"
                 role="tabpanel"
                 aria-labelledby="v-pills-Profile-tab"
@@ -392,6 +636,25 @@
                               name="confirmPassword"
                               id="confirmPassword"
                               placeholder="Confirm Password"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <!-- User photo -->
+                        <div class="col-lg-12">
+                          <div class="single-input">
+                            <label
+                              class="label fw_500 nw1-color mb-4"
+                              for="User"
+                            >
+                              User photo
+                            </label>
+                            <input
+                              type="file"
+                              class="fs-seven"
+                              name="User"
+                              id="User"
+                              placeholder=""
                               required
                             />
                           </div>
@@ -534,25 +797,6 @@
                             />
                           </div>
                         </div>
-                        <!-- Aadhar Card Upload -->
-                        <div class="col-lg-6">
-                          <div class="single-input">
-                            <label
-                              class="label fw_500 nw1-color mb-4"
-                              for="aadharUpload"
-                            >
-                              Aadhar Card Upload
-                            </label>
-                            <input
-                              type="file"
-                              class="fs-seven"
-                              name="aadharUpload"
-                              id="aadharUpload"
-                              accept=".jpg,.jpeg,.png,.pdf"
-                              required
-                            />
-                          </div>
-                        </div>
                         <!-- Pan Number -->
                         <div class="col-lg-6">
                           <div class="single-input">
@@ -572,6 +816,45 @@
                             />
                           </div>
                         </div>
+                        <!-- Aadhar Card Upload -->
+                        <div class="col-lg-6">
+                          <div class="single-input">
+                            <label
+                              class="label fw_500 nw1-color mb-4"
+                              for="aadharUpload"
+                            >
+                              Aadhar Front Image
+                            </label>
+                            <input
+                              type="file"
+                              class="fs-seven"
+                              name="aadharUpload"
+                              id="aadharUpload"
+                              accept=".jpg,.jpeg,.png,.pdf"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <!-- Aadhar Card Upload -->
+                        <div class="col-lg-6">
+                          <div class="single-input">
+                            <label
+                              class="label fw_500 nw1-color mb-4"
+                              for="aadharUpload"
+                            >
+                              Aadhar Back Image
+                            </label>
+                            <input
+                              type="file"
+                              class="fs-seven"
+                              name="aadharUpload"
+                              id="aadharUpload"
+                              accept=".jpg,.jpeg,.png,.pdf"
+                              required
+                            />
+                          </div>
+                        </div>
+
                         <!-- Pan Card Upload -->
                         <div class="col-lg-6">
                           <div class="single-input">
@@ -589,6 +872,83 @@
                               accept=".jpg,.jpeg,.png,.pdf"
                               required
                             />
+                          </div>
+                        </div>
+                        <!-- Pan Card Upload -->
+                        <div class="col-lg-6">
+                          <div class="single-input">
+                            <label
+                              class="label fw_500 nw1-color mb-4"
+                              for="Passbook"
+                            >
+                              Passbook or Cancel check photo
+                            </label>
+                            <input
+                              type="file"
+                              class="fs-seven"
+                              name="Passbook"
+                              id="Passbook"
+                              accept=".jpg,.jpeg,.png,.pdf"
+                              required
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr />
+                    <h6 class="message__title mb-8 mb-lg-10 text-warning pt-5">
+                      Nominee Details
+                    </h6>
+                    <hr />
+                    <div class="d-flex gap-7 gap-lg-8 flex-column">
+                      <div class="row gy-4">
+                        <!-- Nominee name -->
+                        <div class="col-lg-6">
+                          <div class="single-input">
+                            <label
+                              class="label fw_500 nw1-color mb-4"
+                              for="Nominee"
+                            >
+                              Nominee name
+                            </label>
+                            <input
+                              type="text"
+                              class="fs-seven"
+                              name="Nominee"
+                              id="Nominee"
+                              placeholder="Nominee Name"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <!-- Nominee -->
+                        <div class="col-lg-6">
+                          <div class="single-input">
+                            <label
+                              class="label fw_500 nw1-color mb-4"
+                              for="nomineeRelation"
+                            >
+                              Nominee Relation
+                            </label>
+                            <select
+                              name="nomineeRelation"
+                              id=""
+                              class=""
+                              style="
+                                border: 1px solid #fff !important;
+                                padding: 10px;
+                              "
+                            >
+                              <option value="">Select</option>
+                              <option value="mother">Mother</option>
+                              <option value="father">Father</option>
+                              <option value="spouse">Spouse</option>
+                              <option value="son">Son</option>
+                              <option value="daughter">Daughter</option>
+                              <option value="brother">Brother</option>
+                              <option value="sister">Sister</option>
+                              <option value="other">Other</option>
+                            </select>
                           </div>
                         </div>
                       </div>
@@ -679,6 +1039,14 @@
                                 ></button>
                               </div>
                               <div class="modal-body">
+                                <div
+                                  class="bg-success p-2 text-center text-white"
+                                >
+                                  Total Amount :-
+                                  <span class="text-warning fw-bold"
+                                    >Rs.5000</span
+                                  >
+                                </div>
                                 <form
                                   method="POST"
                                   autocomplete="off"
@@ -853,9 +1221,12 @@
                 aria-labelledby="v-pills-Withdrawals-tab"
               >
                 <div class="comments-form cus-rounded-1 nb3-bg p-5">
+                  <h6 class="message__title mb-8 mb-lg-10 text-warning">
+                    Withdrawals List
+                  </h6>
                   <div class="table-responsive">
                     <table class="table table-bordered text-white">
-                      <thead>
+                      <thead class="bg-info">
                         <tr>
                           <th
                             scope="col"
@@ -903,7 +1274,19 @@
                             scope="col"
                             style="text-wrap: nowrap; font-size: 12px"
                           >
+                            Reason of Reject Withdrawals
+                          </th>
+                          <th
+                            scope="col"
+                            style="text-wrap: nowrap; font-size: 12px"
+                          >
                             Amount
+                          </th>
+                          <th
+                            scope="col"
+                            style="text-wrap: nowrap; font-size: 12px"
+                          >
+                            Status
                           </th>
                         </tr>
                       </thead>
@@ -934,7 +1317,13 @@
                             Lorem ipsum dolor sit amet.
                           </td>
                           <td style="text-wrap: nowrap; font-size: 12px">
-                            $.20.00
+                            Lorem ipsum dolor sit amet.
+                          </td>
+                          <td style="text-wrap: nowrap; font-size: 12px">
+                            Rs.2000.00
+                          </td>
+                          <td style="text-wrap: nowrap; font-size: 12px">
+                            <span class="badge bg-danger">Rejected</span>
                           </td>
                         </tr>
 
@@ -963,68 +1352,12 @@
                           <td style="text-wrap: nowrap; font-size: 12px">
                             Lorem ipsum dolor sit amet.
                           </td>
+                          <td style="text-wrap: nowrap; font-size: 12px">-</td>
                           <td style="text-wrap: nowrap; font-size: 12px">
-                            $.20.00
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <th
-                            scope="row"
-                            style="text-wrap: nowrap; font-size: 12px"
-                          >
-                            1
-                          </th>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            Mark Doe
+                            Rs.2000.00
                           </td>
                           <td style="text-wrap: nowrap; font-size: 12px">
-                            02 Aug 1995
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            +91 9090909090
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            mark@gmail.com
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            16-Jan-2025
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            Lorem ipsum dolor sit amet.
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            $.20.00
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <th
-                            scope="row"
-                            style="text-wrap: nowrap; font-size: 12px"
-                          >
-                            1
-                          </th>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            Mark Doe
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            02 Aug 1995
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            +91 9090909090
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            mark@gmail.com
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            16-Jan-2025
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            Lorem ipsum dolor sit amet.
-                          </td>
-                          <td style="text-wrap: nowrap; font-size: 12px">
-                            $.20.00
+                            <span class="badge bg-success">Success</span>
                           </td>
                         </tr>
                       </tbody>
